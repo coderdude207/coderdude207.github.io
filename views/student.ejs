@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Corner</title>
+</head>
+<body style="margin:0; padding:0">
+    <header>
+    <nav class="nav1">
+       
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#profile">Attendence</a></li>
+            <li><a href="#profile">CA components</a></li>
+            <li style="border-radius: 80px; background-color: #00CFFF; text-align: center; padding:10px;"><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+        <h1>Student Corner</h1>
+    </header>
+    <section id="profile">
+    <div class="profile">
+        <div class="profile1">
+            <h1>Profile</h1>
+            <p> <b>ID:</b> <%= id %><br><b>Name:</b> <%= name %><br><b>Phone:</b> <%= phone %><br><b>email:</b> <%= email %></p>
+        </div>
+        <div class="profile2">
+            <h1>Attendence</h1>
+            <p> <b>Agg. Attendence:</b><%= aa %>%<br><b>No. Of Subjects:</b> <%= nos %><br><b>Subject 1:</b> <%= sub1 %>%<br><b>Subject 2:</b> <%= sub2 %>%<br></p>
+        </div>
+        <div class="profile3">
+            <h1>CA Components</h1>
+            <p> <b>No. Of Subjects :</b> <%= subs %><br><b>Subject 1:</b> <%= ca1 %><br><b>Subject 2:</b> <%= ca2 %></p>
+        </div>
+        </div>
+        
+    </section>
+        <section id="footer">
+    <div class="footer1">
+        <p style="color: white;text-align: left;">&copy;Eazy-I-Net Services pvt. ltd.|Developed by <a href="https://github.com/coderdude207"style="color:wheat;text-decoration: none;">Himanshu Gore</a></p>    
+    </div>
+    
+    </section>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
