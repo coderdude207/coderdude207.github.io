@@ -8,12 +8,12 @@ var mysql = require('mysql')
 var connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'password',
   database: 'users',
 })
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('../project'))
+app.use(express.static('../sms'))
 app.set('view engine','ejs')
 connection.connect(function(err){
     if(err) throw err;
