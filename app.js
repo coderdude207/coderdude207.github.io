@@ -3,7 +3,7 @@ const express=require('express');
 const session=require('express-session');
 const path=require('path');
 var app=express()
-const port= 3000
+const port= 8000
 var mysql = require('mysql')
 var connection = mysql.createConnection({
   host: 'localhost',
