@@ -10,6 +10,7 @@ var connection = mysql.createConnection({
   user: 'root',
   password: 'password',
   database: 'users',
+  comment: 'comment'
 })
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
