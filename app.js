@@ -2,6 +2,7 @@ const bodyParser=require('body-parser');
 const express=require('express');
 const session=require('express-session');
 const path=require('path');
+var app2=express();
 var app=express()
 const port= 8000
 var mysql = require('mysql')
